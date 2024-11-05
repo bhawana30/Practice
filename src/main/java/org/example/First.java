@@ -6,8 +6,10 @@ public class First {
         System.out.println("First Class");
         int y=0;
         for(int i =0; i<5; i++){
-            System.out.println("Value of i is :" + y);
-            System.out.println("In master");
+
+            System.out.println("Print value of i :" + i);
+            System.out.println("In main");
+
             i--;
         }
     }
